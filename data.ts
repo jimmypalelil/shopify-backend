@@ -19,7 +19,7 @@ export const imageData: {name: string, url: string, tags: string[]}[] = [
     {
         name: 'mountain2',
         url: 'images/mountain2.jpg',
-        tags: ['mountain', 'snownod']
+        tags: ['mountain', 'snow']
     },
     {
         name: 'beach1',

@@ -5,12 +5,12 @@ import fs from 'fs';
 describe('Testing ImageSearcher Class', () => {
     const imSearcher = new ImageSearcher();
 
-    it('should return snow mountain', () => {
+    it('testing tag search: should return snow mountain', () => {
         const res = imSearcher.search('snow');
         assert.strictEqual(res[0].name, 'mountain2');
     });
 
-    it('should return sandy beach', () => {
+    it('testing tag search: should return sandy beach', () => {
         const res = imSearcher.search('sand');
         assert.strictEqual(res[0].name, 'beach1');
     });
