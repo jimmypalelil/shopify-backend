@@ -8,9 +8,7 @@ To start NodeJS Express Server
 
 > npm run start
 
-go to localhost:3000/search?q=...
-
-type in search query after "q="
+go to http://localhost:3000/search?q=... in your browser and type in search query after "q="
 
 This will display the images
 
